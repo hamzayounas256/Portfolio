@@ -6,6 +6,7 @@ import american from "../../Assets/Projects/american.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import leave from "../../Assets/Projects/leave.png";
 import diet from "../../Assets/Projects/diet.png";
+import billilo from "../../Assets/Projects/billilo.png";
 
 function Projects() {
 	return (
@@ -21,10 +22,20 @@ function Projects() {
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 					<Col md={4} className="project-card">
 						<ProjectCard
+							imgPath={billilo}
+							isBlog={false}
+							title="Billilo - Pet App"
+							description="Developed a React-based pet-related application allowing users to post and view listings for lost, found, adopted, and for-sale pets. Integrated sections for animal shelters and nearby vets, enhancing user experience and accessibility."
+							ghLink="https://github.com/hamzayounas256/billilo"
+							demoLink="https://billilo.vercel.app/"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
 							imgPath={diet}
 							isBlog={false}
 							title="Diet Recommendation"
-							description="Developed a comprehensive web application for diet recommendations using AI, incorporating React for the front-end, Python for AI, and Hugging Face for natural language processing. The application features five key modules: a homepage with diet-related content, a BMI assistant that predicts and displays diet recommendations based on user BMI, a disease assistant that suggests diets according to user-reported diseases, a reports section housing patient medical records, and a contact us page. I was responsible for the front-end development, ensuring seamless user experience and integration with AI-driven functionalities."
+							description="Developed a comprehensive web application for diet recommendations using AI, incorporating React for the front-end, Python for AI, and Hugging Face for natural language processing. The application features five key modules: a homepage with diet-related content, a BMI assistant that predicts and displays diet recommendations based on user BMI, a disease assistant that suggests diets according to user-reported diseases, a reports section housing patient medical records, and a contact us page."
 							ghLink="https://github.com/hamzayounas256/Diet-Recommendation"
 							// demoLink="https://chatify-49.web.app/"
 						/>
@@ -37,7 +48,7 @@ function Projects() {
 							title="American Electronics"
 							description="Developed a user-friendly and efficient accounting software interface using React.js, enhancing the checkout experience for customers and streamlining sales processes for retailers. Utilized React's component-based architecture to build reusable UI elements, optimized performance, and ensured seamless integration with backend systems. Implemented features such as real-time inventory management, payment processing, and order tracking, resulting in improved sales efficiency and customer satisfaction."
 							ghLink="https://github.com/hamzayounas256/americanweb"
-							demoLink="https://crystalsolutions.com.pk/americanweb/"
+							demoLink="https://crystalsolutions.com.pk/crystalsol/"
 						/>
 					</Col>
 
