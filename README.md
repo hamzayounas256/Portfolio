@@ -28,7 +28,7 @@ This project was built using these technologies.
 
 - React.js
 - VsCode
-- Netlify
+- Vercel
 
 ## Features
 
