@@ -24,7 +24,10 @@ function Home2() {
 							<br />
 							<br />I am fluent in classics like
 							<i>
-								<b className="purple"> Javascript, React, Node & Mongoose. </b>
+								<b className="purple">
+									{" "}
+									Javascript, React, Python Django & MySQL.{" "}
+								</b>
 							</i>
 							<br />
 							<br />
@@ -35,7 +38,7 @@ function Home2() {
 							<br />
 							<br />
 							Whenever possible, I also apply my passion for developing products
-							with <b className="purple">Node.js</b> and
+							with <b className="purple">Python Django</b> and
 							<i>
 								<b className="purple">
 									{" "}
@@ -44,7 +47,7 @@ function Home2() {
 							</i>
 							&nbsp; like
 							<i>
-								<b className="purple"> React.js, React.ts & Angular.js</b>
+								<b className="purple"> React.js, React.ts & Next.js</b>
 							</i>
 						</p>
 					</Col>

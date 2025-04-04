@@ -11,8 +11,8 @@ function AboutCard() {
 						Hi Everyone, I am <span className="purple">Hamza Younas </span>
 						from <span className="purple"> Lahore, Pakistan.</span>
 						<br />
-						I am currently employed as a software developer at Crystal
-						Solutions.
+						I am currently employed as an associate software developer at
+						Crystals Solutions.
 						<br />
 						I have completed Bachelors in Computer Science From Minhaj
 						University Lahore.

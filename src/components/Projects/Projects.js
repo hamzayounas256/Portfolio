@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import american from "../../Assets/Projects/american.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 import leave from "../../Assets/Projects/leave.png";
 import diet from "../../Assets/Projects/diet.png";
 import billilo from "../../Assets/Projects/billilo.png";
@@ -22,33 +22,45 @@ function Projects() {
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={billilo}
+							imgPath={american}
 							isBlog={false}
-							title="Billilo - Pet App"
-							description="Developed a React-based pet-related application allowing users to post and view listings for lost, found, adopted, and for-sale pets. Integrated sections for animal shelters and nearby vets, enhancing user experience and accessibility."
-							ghLink="https://github.com/hamzayounas256/billilo"
-							demoLink="https://billilo.vercel.app/"
-						/>
-					</Col>
-					<Col md={4} className="project-card">
-						<ProjectCard
-							imgPath={diet}
-							isBlog={false}
-							title="Diet Recommendation"
-							description="Developed a comprehensive web application for diet recommendations using AI, incorporating React for the front-end, Python for AI, and Hugging Face for natural language processing. The application features five key modules: a homepage with diet-related content, a BMI assistant that predicts and displays diet recommendations based on user BMI, a disease assistant that suggests diets according to user-reported diseases, a reports section housing patient medical records, and a contact us page."
-							ghLink="https://github.com/hamzayounas256/Diet-Recommendation"
-							// demoLink="https://chatify-49.web.app/"
+							title="Customer Relationship Management"
+							description="Developed a React.js-based CRM to streamline customer management, sales tracking, and workflow automation, enhancing efficiency and engagement."
+							ghLink="https://github.com/hamzayounas256/americanweb"
+							demoLink="https://crystalsolutions.com.pk/crystalsol/"
 						/>
 					</Col>
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={american}
+							imgPath={ecommerce}
 							isBlog={false}
-							title="American Electronics"
-							description="Developed a user-friendly and efficient accounting software interface using React.js, enhancing the checkout experience for customers and streamlining sales processes for retailers. Utilized React's component-based architecture to build reusable UI elements, optimized performance, and ensured seamless integration with backend systems. Implemented features such as real-time inventory management, payment processing, and order tracking, resulting in improved sales efficiency and customer satisfaction."
-							ghLink="https://github.com/hamzayounas256/americanweb"
-							demoLink="https://crystalsolutions.com.pk/crystalsol/"
+							title="Ecommerce"
+							description="Developed a full-stack e-commerce platform featuring secure authentication, product management, order processing, and a responsive UI for a seamless shopping experience."
+							ghLink="http://github.com/hamzayounas256/ecommerce"
+							// demoLink="https://editor.soumya-jit.tech/"
+						/>
+					</Col>
+
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={billilo}
+							isBlog={false}
+							title="Billilo - Pet App"
+							description="Developed a full-stack pet management platform facilitating pet adoption, lost-and-found listings, and sales. Integrated location-based services for shelters and veterinary care, ensuring seamless user engagement and accessibility."
+							ghLink="https://github.com/hamzayounas256/billilo"
+							demoLink="https://www.billilo.com/"
+						/>
+					</Col>
+
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={diet}
+							isBlog={false}
+							title="Diet Recommendation"
+							description="Built an AI-powered diet recommendation web app featuring personalized diet suggestions based on BMI, diseases, and patient records."
+							ghLink="https://github.com/hamzayounas256/Diet-Recommendation"
+							// demoLink="https://chatify-49.web.app/"
 						/>
 					</Col>
 
@@ -57,7 +69,7 @@ function Projects() {
 							imgPath={leave}
 							isBlog={false}
 							title="Leave Management System"
-							description="Designed and developed a comprehensive Leave Management System using React.js, enabling employees and administrators to efficiently manage leave requests, approvals, and tracking. Key features included a user-friendly dashboard, leave balance tracking, multiple leave types, and automated approval workflows. Successfully implemented role-based access control, ensuring secure and compliant management of sensitive employee data. The system resulted in improved leave management efficiency, reduced administrative burdens, and enhanced employee satisfaction"
+							description="Developed a React.js-based Leave Management System with role-based access, automated approvals, and leave tracking, enhancing efficiency and employee satisfaction."
 							ghLink="https://github.com/hamzayounas256/leave-webapp"
 							// demoLink="https://editor.soumya-jit.tech/"
 						/>
