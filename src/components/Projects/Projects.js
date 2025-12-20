@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import sendscale from "../../Assets/Projects/sendscale.png";
+import sugarpixels from "../../Assets/Projects/sugarpixels.png";
 import american from "../../Assets/Projects/american.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import leave from "../../Assets/Projects/leave.png";
@@ -20,6 +22,26 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={sugarpixels}
+							isBlog={false}
+							title="Sugar Pixels AI"
+							description="Developed a full-stack workspace automation platform that integrates data from multiple third-party APIs to dynamically generate, manage, and deploy websites."
+							// ghLink="https://github.com/hamzayounas256"
+							demoLink="https://www.sugarpixels.ai/"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={sendscale}
+							isBlog={false}
+							title="Send Scale"
+							description="Built a SaaS cold-email automation platform supporting email warm-up, multi-inbox unification, automated outreach campaigns, and detailed analytics dashboards."
+							// ghLink="https://github.com/hamzayounas256/americanweb"
+							demoLink="https://www.sendscale.com/"
+						/>
+					</Col>
 					<Col md={4} className="project-card">
 						<ProjectCard
 							imgPath={american}

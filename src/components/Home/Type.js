@@ -9,6 +9,8 @@ function Type() {
 					"Software Engineer",
 					"React Developer",
 					"Django Developer",
+					"FastAPI Developer",
+					"Python Developer",
 					"Full Stack Developer",
 					"Freelancer",
 					"Open Source Contributor",

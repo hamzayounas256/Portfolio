@@ -26,7 +26,7 @@ function Home2() {
 							<i>
 								<b className="purple">
 									{" "}
-									Javascript, React, Python Django & MySQL.{" "}
+									Python, Javascript, Django, FastAPI, React, Nextjs & MySQL.{" "}
 								</b>
 							</i>
 							<br />
@@ -38,16 +38,16 @@ function Home2() {
 							<br />
 							<br />
 							Whenever possible, I also apply my passion for developing products
-							with <b className="purple">Python Django</b> and
+							with <b className="purple">Python</b> and
 							<i>
 								<b className="purple">
 									{" "}
-									Modern Javascript Library and Frameworks
+									Modern JavaScript, TypeScript Library and Frameworks
 								</b>
 							</i>
 							&nbsp; like
 							<i>
-								<b className="purple"> React.js, React.ts & Next.js</b>
+								<b className="purple"> React, Vue, Angular & Next</b>
 							</i>
 						</p>
 					</Col>
